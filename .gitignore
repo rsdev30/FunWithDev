@@ -11,3 +11,5 @@
 /Palindromes/.vs/Palindromes/v16/TestStore/0/testlog.manifest
 /Palindromes/Palindromes/obj
 /Palindromes/.vs/Palindromes/DesignTimeBuild/.dtbcache.v2
+*.testlog
+*.manifest
