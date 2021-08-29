@@ -22,3 +22,5 @@
 /Palindromes/FunWith.Palindromes.Manager/bin/Debug/net5.0
 /Palindromes/Palindromes/bin/Debug/net5.0
 *.v2
+/Palindromes/FunWith.Palindromes.Tests/bin/Debug/net5.0
+/Palindromes/FunWith.Palindromes.Tests/obj
