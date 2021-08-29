@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/FunWithDev/v16/TestStore/0
+/.vs/FunWithDev/v16/.suo
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/Palindromes/.vs/FunWithPalindromes/v16/.suo
+/Palindromes/.vs/Palindromes/v16/TestStore/0/000.testlog
+/Palindromes/.vs/Palindromes/v16/TestStore/0/testlog.manifest
+/Palindromes/Palindromes/obj
