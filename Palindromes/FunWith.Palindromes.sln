@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWith.Palindromes.Console", "Palindromes\FunWith.Palindromes.Console.csproj", "{D3FBE16B-45B9-454A-9AA6-2C2A29E5652E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{C85E56D9-1B14-407C-AF76-FF18EADAEB8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E25E0797-0D81-4BC8-BF14-9007B1AFD2F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{1F189DD0-A8AC-42B2-A638-43F9B278B2B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{55F592CB-CAD4-4453-AAB4-0FE12D2BD18B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWith.Palindromes.Manager", "FunWith.Palindromes.Manager\FunWith.Palindromes.Manager.csproj", "{0906FA97-2BBF-4933-A267-BB9B011E4D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWith.Palindromes.Contracts", "FunWith.Palindromes.Contracts\FunWith.Palindromes.Contracts.csproj", "{DE12546C-5F8E-4C81-941B-E6D5A41FE21D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWIth.Palindromes.API", "FunWIth.Palindromes.API\FunWIth.Palindromes.API.csproj", "{C3C4CFF0-DC4A-4CA1-AC9B-8E5BECF57064}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DA569391-73C7-43AA-8474-858DBB7A764C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3FBE16B-45B9-454A-9AA6-2C2A29E5652E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FBE16B-45B9-454A-9AA6-2C2A29E5652E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FBE16B-45B9-454A-9AA6-2C2A29E5652E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FBE16B-45B9-454A-9AA6-2C2A29E5652E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0906FA97-2BBF-4933-A267-BB9B011E4D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0906FA97-2BBF-4933-A267-BB9B011E4D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0906FA97-2BBF-4933-A267-BB9B011E4D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0906FA97-2BBF-4933-A267-BB9B011E4D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE12546C-5F8E-4C81-941B-E6D5A41FE21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE12546C-5F8E-4C81-941B-E6D5A41FE21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE12546C-5F8E-4C81-941B-E6D5A41FE21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE12546C-5F8E-4C81-941B-E6D5A41FE21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C4CFF0-DC4A-4CA1-AC9B-8E5BECF57064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C4CFF0-DC4A-4CA1-AC9B-8E5BECF57064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C4CFF0-DC4A-4CA1-AC9B-8E5BECF57064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C4CFF0-DC4A-4CA1-AC9B-8E5BECF57064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3FBE16B-45B9-454A-9AA6-2C2A29E5652E} = {C85E56D9-1B14-407C-AF76-FF18EADAEB8D}
+		{0906FA97-2BBF-4933-A267-BB9B011E4D0F} = {1F189DD0-A8AC-42B2-A638-43F9B278B2B0}
+		{DE12546C-5F8E-4C81-941B-E6D5A41FE21D} = {55F592CB-CAD4-4453-AAB4-0FE12D2BD18B}
+		{C3C4CFF0-DC4A-4CA1-AC9B-8E5BECF57064} = {E25E0797-0D81-4BC8-BF14-9007B1AFD2F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {816861EA-C90F-4F86-A5DD-169BB20E316F}
+	EndGlobalSection
+EndGlobal

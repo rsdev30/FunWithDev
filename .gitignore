@@ -13,3 +13,11 @@
 /Palindromes/.vs/Palindromes/DesignTimeBuild/.dtbcache.v2
 *.testlog
 *.manifest
+/Palindromes/.vs/FunWith.Palindromes/v16/.suo
+/Palindromes/FunWIth.Palindromes.API/obj
+/Palindromes/FunWith.Palindromes.Contracts/obj
+/Palindromes/FunWith.Palindromes.Manager/obj
+/Palindromes/FunWIth.Palindromes.API/bin/Debug/net5.0
+/Palindromes/FunWith.Palindromes.Contracts/bin/Debug/net5.0
+/Palindromes/FunWith.Palindromes.Manager/bin/Debug/net5.0
+/Palindromes/Palindromes/bin/Debug/net5.0
