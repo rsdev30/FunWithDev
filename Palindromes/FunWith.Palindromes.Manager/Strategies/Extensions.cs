@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace FunWith.Palindromes.Manager.Strategies
+namespace Fun.With.Dev.Palindromes.Manager.Strategies
 {
     public static class PalindromeExtensions
     {

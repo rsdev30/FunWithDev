@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FunWith.Palindromes.Manager\FunWith.Palindromes.Manager.csproj" />
+    <ProjectReference Include="..\FunWith.Palindromes.Manager\Fun.With.Dev.Palindromes.Manager.csproj" />
   </ItemGroup>
 
 </Project>

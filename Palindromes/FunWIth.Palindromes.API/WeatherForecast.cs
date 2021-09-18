@@ -1,6 +1,6 @@
 using System;
 
-namespace FunWIth.Palindromes.API
+namespace Fun.With.Dev.Palindromes.API
 {
     public class WeatherForecast
     {
