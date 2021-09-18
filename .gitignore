@@ -24,3 +24,4 @@
 *.v2
 /Palindromes/FunWith.Palindromes.Tests/bin/Debug/net5.0
 /Palindromes/FunWith.Palindromes.Tests/obj
+/Palindromes/.vs/Fun.With.Dev.Palindromes/config/applicationhost.config

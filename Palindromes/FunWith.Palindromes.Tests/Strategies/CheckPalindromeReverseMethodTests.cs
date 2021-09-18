@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
-namespace FunWith.Palindromes.Tests.Strategies
+namespace Fun.With.Dev.Palindromes.Tests.Strategies
 {
     [TestClass]
     public class CheckPalindromeReverseMethodTests

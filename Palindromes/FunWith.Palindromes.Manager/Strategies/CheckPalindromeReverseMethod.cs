@@ -17,7 +17,7 @@ namespace Fun.With.Dev.Palindromes.Manager.Strategies
             
             var word2 = input?.Reverse();
 
-            if (input.SequenceEqual(word2))
+            if (input?.SequenceEqual(word2) == true)
             {
                 isPalindrome = true;
             }

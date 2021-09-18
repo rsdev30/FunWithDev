@@ -38,9 +38,11 @@ namespace FunWith.Palindromes.Manager.Strategies.Contexts
 
         public bool IsPalindrome(int input) => (bool)_palindrome?.IsPalindrome(input);
 
-        public bool? IsPalindrome(string input)
+        public bool IsPalindrome(string input = "")
         {
-            return _palindromeInputCheck?.IsPalindrome(input);
+            if (_palindromeInputCheck == null) return false;
+
+            return (bool)_palindromeInputCheck?.IsPalindrome(input);
         }
     }
 }
