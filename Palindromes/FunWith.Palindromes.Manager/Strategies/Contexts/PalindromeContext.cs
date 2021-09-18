@@ -1,9 +1,4 @@
-﻿using FunWith.Palindromes.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Fun.With.Dev.Palindromes.Contracts;
 
 namespace FunWith.Palindromes.Manager.Strategies.Contexts
 {

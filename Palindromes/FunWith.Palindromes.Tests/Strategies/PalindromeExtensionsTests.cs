@@ -1,7 +1,5 @@
-﻿using FunWith.Palindromes.Manager.Strategies;
+﻿using Fun.With.Dev.Palindromes.Manager.Strategies;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
-using System;
 
 namespace FunWith.Palindromes.Tests.Strategies
 {

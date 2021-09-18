@@ -1,8 +1,8 @@
-﻿using FunWith.Palindromes.Contracts;
+﻿using Fun.With.Dev.Palindromes.Contracts;
 using System;
 using System.Linq;
 
-namespace FunWith.Palindromes.Manager.Strategies
+namespace Fun.With.Dev.Palindromes.Manager.Strategies
 {
     public class CheckPalindromeReverseMethod : IPalindromeInputCheck<string>
     {
