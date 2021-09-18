@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FunWith.Palindromes.Contracts\Fun.With.Dev.Palindromes.Contracts.csproj" />
+    <ProjectReference Include="..\Fun.With.Dev.Palindromes.Contracts\Fun.With.Dev.Palindromes.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

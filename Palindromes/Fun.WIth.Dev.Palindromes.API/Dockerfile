@@ -10,12 +10,12 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["FunWIth.Palindromes.API/Fun.With.Dev.Palindromes.API.csproj", "FunWIth.Palindromes.API/"]
-COPY ["FunWith.Palindromes.Manager/Fun.With.Dev.Palindromes.Manager.csproj", "FunWith.Palindromes.Manager/"]
-COPY ["FunWith.Palindromes.Contracts/Fun.With.Dev.Palindromes.Contracts.csproj", "FunWith.Palindromes.Contracts/"]
-RUN dotnet restore "FunWIth.Palindromes.API/Fun.With.Dev.Palindromes.API.csproj"
+COPY ["Fun.With.Dev.Palindromes.API/Fun.With.Dev.Palindromes.API.csproj", "Fun.With.Dev.Palindromes.API/"]
+COPY ["Fun.With.Dev.Palindromes.Manager/Fun.With.Dev.Palindromes.Manager.csproj", "Fun.With.Dev.Palindromes.Manager/"]
+COPY ["Fun.With.Dev.Palindromes.Contracts/Fun.With.Dev.Palindromes.Contracts.csproj", "Fun.With.Dev.Palindromes.Contracts/"]
+RUN dotnet restore "Fun.With.Dev.Palindromes.API/Fun.With.Dev.Palindromes.API.csproj"
 COPY . .
-WORKDIR "/src/FunWIth.Palindromes.API"
+WORKDIR "/src/Fun.With.Dev.Palindromes.API"
 RUN dotnet build "Fun.With.Dev.Palindromes.API.csproj" -c Release -o /app/build
 
 FROM build AS publish
