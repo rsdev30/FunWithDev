@@ -1,7 +1,7 @@
 ﻿using Fun.With.Dev.Palindromes.Manager.Strategies;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace FunWith.Palindromes.Tests.Strategies
+namespace Fun.With.Dev.Palindromes.Tests.Strategies
 {
     [TestClass]
     public class PalindromeExtensionTests

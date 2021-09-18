@@ -1,3 +1,6 @@
+using Fun.With.Dev.Palindromes.Contracts;
+using Fun.With.Dev.Palindromes.Manager.Strategies;
+using FunWith.Palindromes.Manager.Strategies.Contexts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +35,9 @@ namespace FunWIth.Palindromes.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FunWIth.Palindromes.API", Version = "v1" });
             });
+
+            services.AddScoped<PalindromeContext>();
+            services.AddScoped<IPalindromeInputCheck<string>, CheckPalindromeReverseMethod>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
