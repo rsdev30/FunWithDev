@@ -47,7 +47,12 @@ namespace FunWIth.Palindromes.API
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FunWIth.Palindromes.API v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fun.With.Dev.Palindromes.API v1"));
+            }
+            else 
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fun.With.Dev.Palindromes.API v1"));
             }
 
             app.UseHttpsRedirection();
