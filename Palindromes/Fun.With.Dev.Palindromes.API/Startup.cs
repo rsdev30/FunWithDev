@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FunWIth.Palindromes.API
+namespace Fun.With.Dev.Palindromes.API
 {
     public class Startup
     {
@@ -33,7 +33,7 @@ namespace FunWIth.Palindromes.API
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "FunWIth.Palindromes.API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Fun.With.Dev.Palindromes.API", Version = "v1" });
             });
 
             services.AddScoped<PalindromeContext>();
