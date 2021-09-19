@@ -17,13 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Palindromes.Console", "Palindromes\Fun.With.Dev.Palindromes.Console.csproj", "{79085F15-3058-40F4-97EA-76AB86957E6B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Palindromes.API", "Fun.With.Dev.Palindromes.API\Fun.With.Dev.Palindromes.API.csproj", "{275819CA-6F25-46E5-84D1-B103687FC09D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Palindromes.Manager", "Fun.With.Dev.Palindromes.Manager\Fun.With.Dev.Palindromes.Manager.csproj", "{83AF0913-FF0B-40BA-984D-6A416D343A92}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Palindromes.Contracts", "Fun.With.Dev.Palindromes.Contracts\Fun.With.Dev.Palindromes.Contracts.csproj", "{F3D7C57D-258C-4F4E-AB2B-ABBCC3698414}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Palindromes.Tests", "Fun.With.Dev.Palindromes.Tests\Fun.With.Dev.Palindromes.Tests.csproj", "{45D0498B-0357-4224-B303-9DD9AECD4F26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Palindromes.API", "Fun.With.Dev.Palindromes.API\Fun.With.Dev.Palindromes.API.csproj", "{D14B083C-0C20-4BE2-A899-DC13AF75198D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,6 @@ Global
 		{79085F15-3058-40F4-97EA-76AB86957E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79085F15-3058-40F4-97EA-76AB86957E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79085F15-3058-40F4-97EA-76AB86957E6B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{275819CA-6F25-46E5-84D1-B103687FC09D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{275819CA-6F25-46E5-84D1-B103687FC09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{275819CA-6F25-46E5-84D1-B103687FC09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{275819CA-6F25-46E5-84D1-B103687FC09D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{83AF0913-FF0B-40BA-984D-6A416D343A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{83AF0913-FF0B-40BA-984D-6A416D343A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83AF0913-FF0B-40BA-984D-6A416D343A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,16 +47,20 @@ Global
 		{45D0498B-0357-4224-B303-9DD9AECD4F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45D0498B-0357-4224-B303-9DD9AECD4F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45D0498B-0357-4224-B303-9DD9AECD4F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14B083C-0C20-4BE2-A899-DC13AF75198D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14B083C-0C20-4BE2-A899-DC13AF75198D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14B083C-0C20-4BE2-A899-DC13AF75198D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14B083C-0C20-4BE2-A899-DC13AF75198D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{79085F15-3058-40F4-97EA-76AB86957E6B} = {C85E56D9-1B14-407C-AF76-FF18EADAEB8D}
-		{275819CA-6F25-46E5-84D1-B103687FC09D} = {E25E0797-0D81-4BC8-BF14-9007B1AFD2F7}
 		{83AF0913-FF0B-40BA-984D-6A416D343A92} = {1F189DD0-A8AC-42B2-A638-43F9B278B2B0}
 		{F3D7C57D-258C-4F4E-AB2B-ABBCC3698414} = {55F592CB-CAD4-4453-AAB4-0FE12D2BD18B}
 		{45D0498B-0357-4224-B303-9DD9AECD4F26} = {DA569391-73C7-43AA-8474-858DBB7A764C}
+		{D14B083C-0C20-4BE2-A899-DC13AF75198D} = {E25E0797-0D81-4BC8-BF14-9007B1AFD2F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {816861EA-C90F-4F86-A5DD-169BB20E316F}
