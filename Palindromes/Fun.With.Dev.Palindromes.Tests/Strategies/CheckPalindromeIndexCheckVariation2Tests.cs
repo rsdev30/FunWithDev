@@ -1,11 +1,12 @@
 ﻿using Fun.With.Dev.Palindromes.Manager.Strategies;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+using System;
 
 namespace Fun.With.Dev.Palindromes.Tests.Strategies
 {
     [TestClass]
-    public class CheckPalindromeReverseMethodTests
+    public class CheckPalindromeIndexCheckVariation2Tests
     {
         private MockRepository mockRepository;
 
@@ -13,33 +14,24 @@ namespace Fun.With.Dev.Palindromes.Tests.Strategies
         public void TestInitialize()
         {
             this.mockRepository = new MockRepository(MockBehavior.Strict);
+
+
         }
 
-        private CheckPalindromeReverseMethod CreateCheckPalindromeReverseMethod()
+        private CheckPalindromeIndexCheckVariation2 CreateCheckPalindromeIndexCheckVariation2()
         {
-            return new CheckPalindromeReverseMethod();
+            return new CheckPalindromeIndexCheckVariation2();
         }
-
+ 
         [TestMethod]
         public void IsPalindrome_StateUnderTest_ExpectedBehavior()
         {
-            // Arrange for odd
-            var checkPalindromeReverseMethod = this.CreateCheckPalindromeReverseMethod();
+            // Arrange
+            var checkPalindromeReverseMethod = this.CreateCheckPalindromeIndexCheckVariation2();
             string input = "civic";
 
             // Act
             var result = checkPalindromeReverseMethod.IsPalindrome(
-                input);
-
-            // Assert
-            Assert.IsTrue(result);
-
-
-            // Arrange for even.            
-            input = "ciic";
-
-            // Act
-            result = checkPalindromeReverseMethod.IsPalindrome(
                 input);
 
             // Assert
@@ -51,7 +43,7 @@ namespace Fun.With.Dev.Palindromes.Tests.Strategies
         public void IsPalindrome_StateUnderTest_ReturnsFalseIfNotAPalindrome()
         {
             // Arrange
-            var checkPalindromeReverseMethod = this.CreateCheckPalindromeReverseMethod();
+            var checkPalindromeReverseMethod = this.CreateCheckPalindromeIndexCheckVariation2();
             string input = "abc";
 
             // Act
