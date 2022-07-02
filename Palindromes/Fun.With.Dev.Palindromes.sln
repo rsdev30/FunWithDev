@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{C85E56D9-1B14-407C-AF76-FF18EADAEB8D}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Palindromes.Tests", "Fun.With.Dev.Palindromes.Tests\Fun.With.Dev.Palindromes.Tests.csproj", "{45D0498B-0357-4224-B303-9DD9AECD4F26}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Palindromes.API", "Fun.With.Dev.Palindromes.API\Fun.With.Dev.Palindromes.API.csproj", "{D14B083C-0C20-4BE2-A899-DC13AF75198D}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Fun.With.Dev.Palindromes.UI.Nodejs", "Fun.With.Dev.Palindromes.UI.Nodejs\Fun.With.Dev.Palindromes.UI.Nodejs.njsproj", "{969CA401-EF59-4FBC-A444-9FB51C42ED38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D14B083C-0C20-4BE2-A899-DC13AF75198D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D14B083C-0C20-4BE2-A899-DC13AF75198D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D14B083C-0C20-4BE2-A899-DC13AF75198D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969CA401-EF59-4FBC-A444-9FB51C42ED38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969CA401-EF59-4FBC-A444-9FB51C42ED38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969CA401-EF59-4FBC-A444-9FB51C42ED38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969CA401-EF59-4FBC-A444-9FB51C42ED38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{F3D7C57D-258C-4F4E-AB2B-ABBCC3698414} = {55F592CB-CAD4-4453-AAB4-0FE12D2BD18B}
 		{45D0498B-0357-4224-B303-9DD9AECD4F26} = {DA569391-73C7-43AA-8474-858DBB7A764C}
 		{D14B083C-0C20-4BE2-A899-DC13AF75198D} = {E25E0797-0D81-4BC8-BF14-9007B1AFD2F7}
+		{969CA401-EF59-4FBC-A444-9FB51C42ED38} = {C85E56D9-1B14-407C-AF76-FF18EADAEB8D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {816861EA-C90F-4F86-A5DD-169BB20E316F}
