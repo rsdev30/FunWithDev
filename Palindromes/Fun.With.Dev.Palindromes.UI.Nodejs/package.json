@@ -2,7 +2,7 @@
   "name": "fun.with.dev.palindromes.ui.nodejs",
   "version": "1.0.0",
   "description": "Fun.With.Dev.Palindromes.UI.Nodejs",
-  "main": "server.js",
+  "main": "app.js",
   "author": {
     "name": ""
   }
