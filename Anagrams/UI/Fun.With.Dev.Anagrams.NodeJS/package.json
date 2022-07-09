@@ -1,0 +1,14 @@
+{
+  "name": "fun.with.dev.Anagrams.node-js",
+  "version": "0.0.0",
+  "description": "Fun.With.Dev.Anagrams.NodeJS",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "author": {
+    "name": ""
+  }
+}
