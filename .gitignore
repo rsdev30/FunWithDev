@@ -112,3 +112,4 @@
 /Template/Services/Fun.With.Dev.Template.GRPC/obj
 /Template/Data/Fun.With.Dev.Template.SQLDB/Fun.With.Dev.Template.SQLDB.jfm
 *.dbmdl
+*.vsidx
