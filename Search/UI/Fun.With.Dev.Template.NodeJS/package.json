@@ -1,0 +1,14 @@
+{
+  "name": "fun.with.dev.template.node-js",
+  "version": "0.0.0",
+  "description": "Fun.With.Dev.Template.NodeJS",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "author": {
+    "name": ""
+  }
+}
