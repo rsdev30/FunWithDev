@@ -1,4 +1,5 @@
-﻿using Fun.With.Dev.Palindromes.Manager.Strategies;
+﻿using Fun.With.Dev.Palindromes.Manager.Extensions;
+using Fun.With.Dev.Palindromes.Manager.Strategies;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Fun.With.Dev.Palindromes.Tests.Strategies
