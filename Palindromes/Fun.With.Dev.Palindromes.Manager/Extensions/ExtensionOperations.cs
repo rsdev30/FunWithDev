@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace Fun.With.Dev.Palindromes.Manager.Strategies
+namespace Fun.With.Dev.Palindromes.Manager.Extensions
 {
-    public static class PalindromeExtensions
+    /// <summary>
+    /// Example of using extensions in C# as an alternative. 
+    /// </summary>
+    public static class ExtensionOperations
     {
-        public static bool IsPalindrome(this string input) 
+        public static bool IsPalindrome(this string input)
         {
             if (input is null)
             {
@@ -18,7 +22,7 @@ namespace Fun.With.Dev.Palindromes.Manager.Strategies
 
             var word2 = input?.Reverse();
 
-            if (input.SequenceEqual(word2))
+            if (input?.SequenceEqual(word2) == true)
             {
                 isPalindrome = true;
             }
@@ -26,4 +30,5 @@ namespace Fun.With.Dev.Palindromes.Manager.Strategies
             return isPalindrome;
         }
     }
+}
 }
