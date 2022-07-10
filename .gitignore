@@ -216,3 +216,5 @@
 /Anagrams/UI/Fun.With.Dev.Anagrams.NodeTypeScript
 /Anagrams/Tests/Fun.With.Dev.Template.Anagrams.MSTests/bin/Release/net6.0/CoverletSourceRootsMapping
 /Search/Data/Fun.With.Dev.Template.SQLDB
+/Search/Contracts/Fun.With.Dev.Search.Contracts/bin/Debug/net6.0
+/Search/Contracts/Fun.With.Dev.Search.Contracts/obj
