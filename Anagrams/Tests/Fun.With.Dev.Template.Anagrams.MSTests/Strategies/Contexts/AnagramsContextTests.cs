@@ -47,12 +47,12 @@ namespace Fun.With.Dev.Anagrams.Tests.MSTests.Strategies.Contexts
         }
 
         [TestMethod]
-        public void IsAnagram_StateUnderTest_If_Inputs_Null_Returns_True()
+        public void IsAnagram_StateUnderTest_If_Inputs_Equal_Returns_True()
         {
             // Arrange
             var anagramsContext = this.CreateAnagramsContext();
-            string input1 = "amarna";
-            string input2 = "ragman";
+            string input1 = "god";
+            string input2 = "dog";
 
             // Act
             var result = anagramsContext.IsAnagram(
@@ -60,7 +60,43 @@ namespace Fun.With.Dev.Anagrams.Tests.MSTests.Strategies.Contexts
                 input2);
 
             // Assert
-            Assert.IsFalse(result);
+            Assert.IsTrue(result);
+            this._mockRepository.VerifyAll();
+        }
+
+        [TestMethod]
+        public void IsAnagram_StateUnderTest_If_Input1_Gt_Input2_Equal_Returns_True()
+        {
+            // Arrange
+            var anagramsContext = this.CreateAnagramsContext();
+            string input1 = "anagram";
+            string input2 = "rag";
+
+            // Act
+            var result = anagramsContext.IsAnagram(
+                input1,
+                input2);
+
+            // Assert
+            Assert.IsTrue(result);
+            this._mockRepository.VerifyAll();
+        }
+
+        [TestMethod]
+        public void IsAnagram_StateUnderTest_If_Input1_Lt_Input2_Equal_Returns_True()
+        {
+            // Arrange
+            var anagramsContext = this.CreateAnagramsContext();
+            string input1 = "rag";
+            string input2 = "anagram";
+
+            // Act
+            var result = anagramsContext.IsAnagram(
+                input1,
+                input2);
+
+            // Assert
+            Assert.IsTrue(result);
             this._mockRepository.VerifyAll();
         }
     }
