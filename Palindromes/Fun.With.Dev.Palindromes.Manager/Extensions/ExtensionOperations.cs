@@ -31,4 +31,3 @@ namespace Fun.With.Dev.Palindromes.Manager.Extensions
         }
     }
 }
-}
