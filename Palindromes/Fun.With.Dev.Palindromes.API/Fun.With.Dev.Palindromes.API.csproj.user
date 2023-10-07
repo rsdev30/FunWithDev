@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <NameOfLastUsedPublishProfile>C:\Users\schre\source\repos\rsdev30\FunWithDev\Palindromes\Fun.With.Dev.Palindromes.API\Properties\PublishProfiles\FunWithDevPalindromesAPI - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
-    <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
+    <ActiveDebugProfile>Docker</ActiveDebugProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
