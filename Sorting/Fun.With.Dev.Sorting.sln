@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{82
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Template.API", "API\Fun.With.Dev.Template.API\Fun.With.Dev.Template.API.csproj", "{6FCB032C-E2E5-4212-8837-4C1A84F30F6B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Template.Contracts", "Contracts\Fun.With.Dev.Template.Contracts\Fun.With.Dev.Template.Contracts.csproj", "{EFAEB0A5-CB51-4030-8CA7-9A3B83736504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Sorting.Contracts", "Contracts\Fun.With.Dev.Template.Contracts\Fun.With.Dev.Sorting.Contracts.csproj", "{EFAEB0A5-CB51-4030-8CA7-9A3B83736504}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Fun.With.Dev.Template.SQLDB", "Data\Fun.With.Dev.Template.SQLDB\Fun.With.Dev.Template.SQLDB.sqlproj", "{E7686313-7580-49E9-ABC1-8AC66A52C22F}"
 EndProject
