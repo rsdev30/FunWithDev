@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client\Fun.With.Dev.Template.BlazorApp.Client.csproj" />
-    <ProjectReference Include="..\Shared\Fun.With.Dev.Template.BlazorApp.Shared.csproj" />
+    <ProjectReference Include="..\Client\Fun.With.Dev.Sorting.BlazorApp.Client.csproj" />
+    <ProjectReference Include="..\Shared\Fun.With.Dev.Sorting.BlazorApp.Shared.csproj" />
   </ItemGroup>
 
 
