@@ -453,3 +453,9 @@
 /Sorting/UI/Fun.With.Dev.Template.BlazorApp/Server/obj/Fun.With.Dev.Template.BlazorApp.Server.csproj.nuget.g.props
 /Sorting/UI/Fun.With.Dev.Template.BlazorApp/Server/obj/Fun.With.Dev.Template.BlazorApp.Server.csproj.nuget.g.targets
 /Sorting/UI/Fun.With.Dev.Template.NodeTypeScript.Express/node_modules
+/Sorting/Managers/Fun.With.Dev.Template.Managers/obj/Debug/net6.0/Fun.With.Dev.Template.Managers.AssemblyInfo.cs
+/Sorting/Services/Fun.With.Dev.Template.GRPC/obj/Debug/net6.0/Fun.With.Dev.Template.GRPC.AssemblyInfo.cs
+/Sorting/Services/Fun.With.Dev.Template.Services/obj/Debug/net6.0/Fun.With.Dev.Template.Services.AssemblyInfo.cs
+/Sorting/Tests/Fun.With.Dev.Template.Tests.MSTests/obj/Debug/net6.0/Fun.With.Dev.Template.Tests.MSTests.AssemblyInfo.cs
+/Sorting/Tests/Fun.With.Dev.Template.Tests.NUnitTests/obj/Debug/net6.0/Fun.With.Dev.Template.Tests.NUnitTests.AssemblyInfo.cs
+/Sorting/Tests/Fun.With.Dev.Template.Tests.XUnitTests/obj/Debug/net6.0/Fun.With.Dev.Template.Tests.XUnitTests.AssemblyInfo.cs
