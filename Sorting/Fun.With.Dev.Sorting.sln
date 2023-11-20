@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BAB2CB7A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{823E3023-0D2A-479D-A696-8CA8C5689D4C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Template.API", "API\Fun.With.Dev.Template.API\Fun.With.Dev.Template.API.csproj", "{6FCB032C-E2E5-4212-8837-4C1A84F30F6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Sorting.API", "API\Fun.With.Dev.Template.API\Fun.With.Dev.Sorting.API.csproj", "{6FCB032C-E2E5-4212-8837-4C1A84F30F6B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Sorting.Contracts", "Contracts\Fun.With.Dev.Template.Contracts\Fun.With.Dev.Sorting.Contracts.csproj", "{EFAEB0A5-CB51-4030-8CA7-9A3B83736504}"
 EndProject
