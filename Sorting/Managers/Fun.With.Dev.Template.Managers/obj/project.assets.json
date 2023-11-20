@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\schre\\source\\repos\\rsdev30\\FunWithDev\\Template\\Managers\\Fun.With.Dev.Template.Managers\\Fun.With.Dev.Template.Managers.csproj",
+      "projectUniqueName": "C:\\Users\\schre\\Source\\Repos\\rsdev30\\FunWithDev\\Sorting\\Managers\\Fun.With.Dev.Template.Managers\\Fun.With.Dev.Template.Managers.csproj",
       "projectName": "Fun.With.Dev.Template.Managers",
-      "projectPath": "C:\\Users\\schre\\source\\repos\\rsdev30\\FunWithDev\\Template\\Managers\\Fun.With.Dev.Template.Managers\\Fun.With.Dev.Template.Managers.csproj",
+      "projectPath": "C:\\Users\\schre\\Source\\Repos\\rsdev30\\FunWithDev\\Sorting\\Managers\\Fun.With.Dev.Template.Managers\\Fun.With.Dev.Template.Managers.csproj",
       "packagesPath": "C:\\Users\\schre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\schre\\source\\repos\\rsdev30\\FunWithDev\\Template\\Managers\\Fun.With.Dev.Template.Managers\\obj\\",
+      "outputPath": "C:\\Users\\schre\\Source\\Repos\\rsdev30\\FunWithDev\\Sorting\\Managers\\Fun.With.Dev.Template.Managers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -56,16 +57,31 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
