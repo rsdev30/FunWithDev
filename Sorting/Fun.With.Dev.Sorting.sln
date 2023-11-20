@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Template.Tests
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{2247C3C9-A5C7-48FF-AACD-1921D5427D59}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Template.Domains", "Domains\Fun.With.Dev.Template.Domains\Fun.With.Dev.Template.Domains.csproj", "{D9CC5F85-2974-4DBB-8B55-B7D8927E083E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Sorting.Domains", "Domains\Fun.With.Dev.Template.Domains\Fun.With.Dev.Sorting.Domains.csproj", "{D9CC5F85-2974-4DBB-8B55-B7D8927E083E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Template.Tests.NUnitTests", "Tests\Fun.With.Dev.Template.Tests.NUnitTests\Fun.With.Dev.Template.Tests.NUnitTests.csproj", "{5B6716E3-C239-45FB-8026-D2B5F9635B8A}"
 EndProject

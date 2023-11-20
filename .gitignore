@@ -431,3 +431,7 @@
 /Sorting/UI/Fun.With.Dev.Template.NodeTypeScript/obj/Debug
 /Sorting/UI/Fun.With.Dev.Template.NodeTypeScript.Express/obj/Debug
 /.vs/slnx.sqlite-journal
+/Sorting/Domains/Fun.With.Dev.Template.Domains/obj/Fun.With.Dev.Sorting.Domains.csproj.nuget.dgspec.json
+/Sorting/Domains/Fun.With.Dev.Template.Domains/obj/Fun.With.Dev.Sorting.Domains.csproj.nuget.g.props
+/Sorting/Domains/Fun.With.Dev.Template.Domains/obj/Fun.With.Dev.Sorting.Domains.csproj.nuget.g.targets
+/Sorting/Domains/Fun.With.Dev.Template.Domains/obj/project.assets.json
