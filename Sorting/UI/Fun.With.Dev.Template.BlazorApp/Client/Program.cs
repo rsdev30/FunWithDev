@@ -1,4 +1,4 @@
-using Fun.With.Dev.Template.BlazorApp.Client;
+using Fun.With.Dev.Sorting.BlazorApp.Client;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
