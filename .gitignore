@@ -440,3 +440,16 @@
 /Sorting/Contracts/Fun.With.Dev.Template.Contracts/obj/Fun.With.Dev.Sorting.Contracts.csproj.nuget.g.targets
 /Sorting/Contracts/Fun.With.Dev.Template.Contracts/obj/project.assets.json
 /Sorting/API/Fun.With.Dev.Template.API/obj
+/Sorting/UI/Fun.With.Dev.Template.BlazorApp/Client/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/Sorting/UI/Fun.With.Dev.Template.BlazorApp/Client/obj/Debug/net6.0/Fun.With.Dev.Template.BlazorApp.Client.AssemblyInfo.cs
+/Sorting/UI/Fun.With.Dev.Template.BlazorApp/Client/obj/Debug/net6.0/Fun.With.Dev.Template.BlazorApp.Client.GlobalUsings.g.cs
+/Sorting/UI/Fun.With.Dev.Template.BlazorApp/Client/obj/Fun.With.Dev.Template.BlazorApp.Client.csproj.nuget.dgspec.json
+/Sorting/UI/Fun.With.Dev.Template.BlazorApp/Client/obj/Fun.With.Dev.Template.BlazorApp.Client.csproj.nuget.g.props
+/Sorting/UI/Fun.With.Dev.Template.BlazorApp/Client/obj/Fun.With.Dev.Template.BlazorApp.Client.csproj.nuget.g.targets
+/Sorting/UI/Fun.With.Dev.Template.BlazorApp/Server/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/Sorting/UI/Fun.With.Dev.Template.BlazorApp/Server/obj/Debug/net6.0/Fun.With.Dev.Template.BlazorApp.Server.AssemblyInfo.cs
+/Sorting/UI/Fun.With.Dev.Template.BlazorApp/Server/obj/Debug/net6.0/Fun.With.Dev.Template.BlazorApp.Server.GlobalUsings.g.cs
+/Sorting/UI/Fun.With.Dev.Template.BlazorApp/Server/obj/Debug/net6.0/Fun.With.Dev.Template.BlazorApp.Server.RazorAssemblyInfo.cs
+/Sorting/UI/Fun.With.Dev.Template.BlazorApp/Server/obj/Fun.With.Dev.Template.BlazorApp.Server.csproj.nuget.g.props
+/Sorting/UI/Fun.With.Dev.Template.BlazorApp/Server/obj/Fun.With.Dev.Template.BlazorApp.Server.csproj.nuget.g.targets
+/Sorting/UI/Fun.With.Dev.Template.NodeTypeScript.Express/node_modules
