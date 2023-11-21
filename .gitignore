@@ -459,3 +459,5 @@
 /Sorting/Tests/Fun.With.Dev.Template.Tests.MSTests/obj/Debug/net6.0/Fun.With.Dev.Template.Tests.MSTests.AssemblyInfo.cs
 /Sorting/Tests/Fun.With.Dev.Template.Tests.NUnitTests/obj/Debug/net6.0/Fun.With.Dev.Template.Tests.NUnitTests.AssemblyInfo.cs
 /Sorting/Tests/Fun.With.Dev.Template.Tests.XUnitTests/obj/Debug/net6.0/Fun.With.Dev.Template.Tests.XUnitTests.AssemblyInfo.cs
+/Sorting/API/Fun.With.Dev.Sorting.API/bin/Debug
+/Sorting/API/Fun.With.Dev.Sorting.API/obj
