@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44487",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\schre\\Source\\Repos\\rsdev30\\FunWithDev\\Sorting\\UI\\Fun.With.Dev.Template.AngularCore\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}
