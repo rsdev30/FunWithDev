@@ -486,3 +486,5 @@
 /Sorting/Tests/Fun.With.Dev.Sorting.Tests.NUnitTests/obj
 /Sorting/Tests/Fun.With.Dev.Sorting.Tests.XUnitTests/bin/Debug/net6.0
 /Sorting/Tests/Fun.With.Dev.Sorting.Tests.XUnitTests/obj
+/Sorting/Domains/Fun.With.Dev.Sorting.Domains/bin/Debug/net8.0
+/Sorting/Contracts/Fun.With.Dev.Sorting.Contracts/bin/Debug/net8.0
