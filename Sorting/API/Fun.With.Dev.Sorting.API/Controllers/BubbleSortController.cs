@@ -8,11 +8,11 @@ namespace Fun.With.Dev.Sorting.API.Controllers
     [ApiController]
     [Route("[controller]")]
     [RequiredScope(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
-    public class BubbleSort : ControllerBase
+    public class BubbleSortController : ControllerBase
     {        
-        private readonly ILogger<BubbleSort> _logger;
+        private readonly ILogger<BubbleSortController> _logger;
 
-        public BubbleSort(ILogger<BubbleSort> logger)
+        public BubbleSortController(ILogger<BubbleSortController> logger)
         {
             _logger = logger;
         }
