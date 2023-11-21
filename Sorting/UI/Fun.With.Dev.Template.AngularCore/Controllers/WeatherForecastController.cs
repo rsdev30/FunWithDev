@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Fun.With.Dev.Template.AngularCore.Controllers
+namespace Fun.With.Dev.Sorting.AngularCore.Controllers
 {
     [ApiController]
     [Route("[controller]")]

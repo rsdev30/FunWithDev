@@ -1,7 +1,7 @@
-using Fun.With.Dev.Template.BlazorApp.Shared;
+using Fun.With.Dev.Sorting.BlazorApp.Shared;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Fun.With.Dev.Template.BlazorApp.Server.Controllers
+namespace Fun.With.Dev.Sorting.BlazorApp.Server.Controllers
 {
     [ApiController]
     [Route("[controller]")]

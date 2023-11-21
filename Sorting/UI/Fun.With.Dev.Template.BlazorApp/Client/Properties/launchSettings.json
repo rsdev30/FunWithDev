@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "Fun.With.Dev.Template.BlazorApp": {
+    "Fun.With.Dev.Sorting.BlazorApp": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

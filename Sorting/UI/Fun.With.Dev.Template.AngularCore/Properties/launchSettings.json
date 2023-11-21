@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "Fun.With.Dev.Template.AngularCore": {
+    "Fun.With.Dev.Sorting.AngularCore": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "https://localhost:7265;http://localhost:5265",

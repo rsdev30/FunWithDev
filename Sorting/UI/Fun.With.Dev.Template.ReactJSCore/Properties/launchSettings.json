@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "Fun.With.Dev.Template.ReactJSCore": {
+    "Fun.With.Dev.Sorting.ReactJSCore": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "https://localhost:7257;http://localhost:5257",

@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Fun.With.Dev.Template.API": {
+    "Fun.With.Dev.Sorting.API": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

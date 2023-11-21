@@ -1,4 +1,4 @@
-namespace Fun.With.Dev.Template.AngularCore
+namespace Fun.With.Dev.Sorting.AngularCore
 {
     public class WeatherForecast
     {

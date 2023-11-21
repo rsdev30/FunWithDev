@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Fun.With.Dev.Template.AngularCore": {
+    "Fun.With.Dev.Sorting.AngularCore": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Fun.With.Dev.Template.AngularCore:build:production"
+              "browserTarget": "Fun.With.Dev.Sorting.AngularCore:build:production"
             },
             "development": {
-              "browserTarget": "Fun.With.Dev.Template.AngularCore:build:development",
+              "browserTarget": "Fun.With.Dev.Sorting.AngularCore:build:development",
               "proxyConfig": "proxy.conf.js"
             }
           },
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Fun.With.Dev.Template.AngularCore:build"
+            "browserTarget": "Fun.With.Dev.Sorting.AngularCore:build"
           }
         },
         "test": {
@@ -129,5 +129,5 @@
       }
     }
   },
-  "defaultProject": "Fun.With.Dev.Template.AngularCore"
+  "defaultProject": "Fun.With.Dev.Sorting.AngularCore"
 }

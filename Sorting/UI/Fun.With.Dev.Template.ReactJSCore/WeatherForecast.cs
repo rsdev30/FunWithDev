@@ -1,4 +1,4 @@
-namespace Fun.With.Dev.Template.ReactJSCore
+namespace Fun.With.Dev.Sorting.ReactJSCore
 {
     public class WeatherForecast
     {

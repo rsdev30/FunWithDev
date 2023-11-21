@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Web.Resource;
 
-namespace Fun.With.Dev.Template.API.Controllers
+namespace Fun.With.Dev.Sorting.API.Controllers
 {
     [Authorize]
     [ApiController]
