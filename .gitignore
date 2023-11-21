@@ -461,3 +461,9 @@
 /Sorting/Tests/Fun.With.Dev.Template.Tests.XUnitTests/obj/Debug/net6.0/Fun.With.Dev.Template.Tests.XUnitTests.AssemblyInfo.cs
 /Sorting/API/Fun.With.Dev.Sorting.API/bin/Debug
 /Sorting/API/Fun.With.Dev.Sorting.API/obj
+/Sorting/Managers/Fun.With.Dev.Template.Managers/obj/Fun.With.Dev.Template.Managers.csproj.nuget.dgspec.json
+/Sorting/Services/Fun.With.Dev.Template.GRPC/obj/Fun.With.Dev.Template.GRPC.csproj.nuget.dgspec.json
+/Sorting/Services/Fun.With.Dev.Template.Services/obj/Fun.With.Dev.Template.Services.csproj.nuget.dgspec.json
+/Sorting/Tests/Fun.With.Dev.Template.Tests.MSTests/obj/Fun.With.Dev.Template.Tests.MSTests.csproj.nuget.dgspec.json
+/Sorting/Tests/Fun.With.Dev.Template.Tests.NUnitTests/obj/Fun.With.Dev.Template.Tests.NUnitTests.csproj.nuget.dgspec.json
+/Sorting/Tests/Fun.With.Dev.Template.Tests.XUnitTests/obj/Fun.With.Dev.Template.Tests.XUnitTests.csproj.nuget.dgspec.json

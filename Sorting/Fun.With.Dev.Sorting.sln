@@ -17,8 +17,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BAB2CB7A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{823E3023-0D2A-479D-A696-8CA8C5689D4C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Sorting.API", "API\Fun.With.Dev.Template.API\Fun.With.Dev.Sorting.API.csproj", "{6FCB032C-E2E5-4212-8837-4C1A84F30F6B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Sorting.Contracts", "Contracts\Fun.With.Dev.Template.Contracts\Fun.With.Dev.Sorting.Contracts.csproj", "{EFAEB0A5-CB51-4030-8CA7-9A3B83736504}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Fun.With.Dev.Template.SQLDB", "Data\Fun.With.Dev.Template.SQLDB\Fun.With.Dev.Template.SQLDB.sqlproj", "{E7686313-7580-49E9-ABC1-8AC66A52C22F}"
@@ -57,16 +55,14 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Fun.With.Dev.Sorting.NodeJS
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Fun.With.Dev.Sorting.NodeTypeScript.Express", "UI\Fun.With.Dev.Template.NodeTypeScript.Express\Fun.With.Dev.Sorting.NodeTypeScript.Express.esproj", "{AFF5B32C-8F8D-4290-9A81-97990ADF59DA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun.With.Dev.Sorting.API", "API\Fun.With.Dev.Sorting.API\Fun.With.Dev.Sorting.API.csproj", "{5098BC99-8A9A-4601-AFFA-B9ACFC0B8058}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6FCB032C-E2E5-4212-8837-4C1A84F30F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6FCB032C-E2E5-4212-8837-4C1A84F30F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6FCB032C-E2E5-4212-8837-4C1A84F30F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6FCB032C-E2E5-4212-8837-4C1A84F30F6B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EFAEB0A5-CB51-4030-8CA7-9A3B83736504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EFAEB0A5-CB51-4030-8CA7-9A3B83736504}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFAEB0A5-CB51-4030-8CA7-9A3B83736504}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -147,12 +143,15 @@ Global
 		{AFF5B32C-8F8D-4290-9A81-97990ADF59DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFF5B32C-8F8D-4290-9A81-97990ADF59DA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AFF5B32C-8F8D-4290-9A81-97990ADF59DA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5098BC99-8A9A-4601-AFFA-B9ACFC0B8058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5098BC99-8A9A-4601-AFFA-B9ACFC0B8058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5098BC99-8A9A-4601-AFFA-B9ACFC0B8058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5098BC99-8A9A-4601-AFFA-B9ACFC0B8058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6FCB032C-E2E5-4212-8837-4C1A84F30F6B} = {6EC73DEA-31EC-4EF4-BFF0-B54499EF6407}
 		{EFAEB0A5-CB51-4030-8CA7-9A3B83736504} = {EB041C76-208C-4CA0-BB68-A6F591B4F362}
 		{E7686313-7580-49E9-ABC1-8AC66A52C22F} = {C3BC2B13-C8DC-46E9-A382-589C681C85A3}
 		{94A174F3-8B14-41D6-AF07-171B6D8C47A8} = {3CAF193D-698F-4B50-A828-B07DE06880AA}
@@ -171,6 +170,7 @@ Global
 		{FBB27A36-F052-42F7-9A3B-12605B52C8B8} = {CBFC0559-49EF-49FE-897B-C44D1AB49C84}
 		{430ECBF2-004D-4A0D-9097-A8F8E544D981} = {CBFC0559-49EF-49FE-897B-C44D1AB49C84}
 		{AFF5B32C-8F8D-4290-9A81-97990ADF59DA} = {CBFC0559-49EF-49FE-897B-C44D1AB49C84}
+		{5098BC99-8A9A-4601-AFFA-B9ACFC0B8058} = {6EC73DEA-31EC-4EF4-BFF0-B54499EF6407}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A59E7FF-0501-48C9-AC40-671543589E66}
