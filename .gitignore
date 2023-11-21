@@ -486,3 +486,16 @@
 /Sorting/Tests/Fun.With.Dev.Sorting.Tests.NUnitTests/obj
 /Sorting/Tests/Fun.With.Dev.Sorting.Tests.XUnitTests/bin/Debug/net6.0
 /Sorting/Tests/Fun.With.Dev.Sorting.Tests.XUnitTests/obj
+/Sorting/UI/Fun.With.Dev.Sorting.BlazorApp/Client/bin/Debug/net6.0
+/Sorting/UI/Fun.With.Dev.Sorting.BlazorApp/Client/obj
+/Sorting/UI/Fun.With.Dev.Sorting.BlazorApp/Server/bin/Debug/net6.0
+/Sorting/UI/Fun.With.Dev.Sorting.BlazorApp/Server/obj
+/Sorting/UI/Fun.With.Dev.Sorting.BlazorApp/Shared/bin/Debug/net6.0
+/Sorting/UI/Fun.With.Dev.Sorting.BlazorApp/Shared/obj/Debug/net6.0
+/Sorting/UI/Fun.With.Dev.Sorting.BlazorApp/Shared/obj
+/Sorting/UI/Fun.With.Dev.Sorting.NodeJS/obj/Debug
+/Sorting/UI/Fun.With.Dev.Sorting.NodeJS.Express/obj/Debug
+/Sorting/UI/Fun.With.Dev.Sorting.NodeTypeScript/node_modules
+/Sorting/UI/Fun.With.Dev.Sorting.NodeTypeScript/obj/Debug
+/Sorting/UI/Fun.With.Dev.Sorting.NodeTypeScript.Express/node_modules
+/Sorting/UI/Fun.With.Dev.Sorting.NodeTypeScript.Express/obj/Debug
