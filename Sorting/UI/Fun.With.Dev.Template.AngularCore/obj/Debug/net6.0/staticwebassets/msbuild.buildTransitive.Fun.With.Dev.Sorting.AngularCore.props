@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Fun.With.Dev.Sorting.AngularCore.props" />
-</Project>
