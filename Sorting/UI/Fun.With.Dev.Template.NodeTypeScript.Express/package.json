@@ -1,5 +1,5 @@
 {
-  "name": "fun.with.dev.template.node-type-script.express",
+  "name": "Fun.With.Dev.Sorting.node-type-script.express",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "clean": "tsc --build --clean",
     "start": "node app"
   },
-  "description": "Fun.With.Dev.Template.NodeTypeScript.Express",
+  "description": "Fun.With.Dev.Sorting.NodeTypeScript.Express",
   "author": {
     "name": ""
   },

@@ -1,11 +1,11 @@
 {
-  "name": "fun.with.dev.template.node-js.express",
+  "name": "Fun.With.Dev.Sorting.node-js.express",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node app"
   },
-  "description": "Fun.With.Dev.Template.NodeJS.Express",
+  "description": "Fun.With.Dev.Sorting.NodeJS.Express",
   "author": {
     "name": ""
   },

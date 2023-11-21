@@ -1,6 +1,6 @@
 {
-  "name": "Fun.With.Dev.Template.BlazorApp",
-  "short_name": "Fun.With.Dev.Template.BlazorApp",
+  "name": "Fun.With.Dev.Sorting.BlazorApp",
+  "short_name": "Fun.With.Dev.Sorting.BlazorApp",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",

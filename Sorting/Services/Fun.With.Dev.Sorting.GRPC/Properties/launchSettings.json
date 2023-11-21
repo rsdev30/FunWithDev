@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "Fun.With.Dev.Sorting.GRPC": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5297;https://localhost:7297",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

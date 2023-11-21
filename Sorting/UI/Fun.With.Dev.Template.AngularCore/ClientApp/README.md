@@ -1,4 +1,4 @@
-# Fun.With.Dev.Template.AngularCore
+# Fun.With.Dev.Sorting.AngularCore
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
 

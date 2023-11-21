@@ -1,2 +1,0 @@
-obj\Debug\net6.0\Protos/Template.cs \
-obj\Debug\net6.0\Protos/TemplateGrpc.cs: Protos/template.proto

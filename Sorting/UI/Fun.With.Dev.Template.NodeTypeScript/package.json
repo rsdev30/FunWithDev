@@ -1,7 +1,7 @@
 {
-  "name": "fun.with.dev.template.node-type-script",
+  "name": "Fun.With.Dev.Sorting.node-type-script",
   "version": "0.0.0",
-  "description": "Fun.With.Dev.Template.NodeTypeScript",
+  "description": "Fun.With.Dev.Sorting.NodeTypeScript",
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean",

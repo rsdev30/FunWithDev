@@ -1,4 +1,4 @@
-namespace Fun.With.Dev.Template.BlazorApp.Shared
+namespace Fun.With.Dev.Sorting.BlazorApp.Shared
 {
     public class WeatherForecast
     {

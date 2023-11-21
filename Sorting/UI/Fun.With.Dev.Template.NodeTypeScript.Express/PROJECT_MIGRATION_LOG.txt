@@ -1,9 +1,9 @@
 Hello! Thank you for trying out our new JavaScript and TypeScript project experience. We've added the below list of files to your project directory in order to enable the new experience:
 
-C:\Users\schre\Source\Repos\rsdev30\FunWithDev\Sorting\UI\Fun.With.Dev.Template.NodeTypeScript.Express\.vscode\launch.json
-C:\Users\schre\Source\Repos\rsdev30\FunWithDev\Sorting\UI\Fun.With.Dev.Template.NodeTypeScript.Express\nuget.config
-C:\Users\schre\Source\Repos\rsdev30\FunWithDev\Sorting\UI\Fun.With.Dev.Template.NodeTypeScript.Express\Fun.With.Dev.Template.NodeTypeScript.Express.esproj
-C:\Users\schre\Source\Repos\rsdev30\FunWithDev\Sorting\UI\Fun.With.Dev.Template.NodeTypeScript.Express\PROJECT_MIGRATION_LOG.txt
+C:\Users\schre\Source\Repos\rsdev30\FunWithDev\Sorting\UI\Fun.With.Dev.Sorting.NodeTypeScript.Express\.vscode\launch.json
+C:\Users\schre\Source\Repos\rsdev30\FunWithDev\Sorting\UI\Fun.With.Dev.Sorting.NodeTypeScript.Express\nuget.config
+C:\Users\schre\Source\Repos\rsdev30\FunWithDev\Sorting\UI\Fun.With.Dev.Sorting.NodeTypeScript.Express\Fun.With.Dev.Sorting.NodeTypeScript.Express.esproj
+C:\Users\schre\Source\Repos\rsdev30\FunWithDev\Sorting\UI\Fun.With.Dev.Sorting.NodeTypeScript.Express\PROJECT_MIGRATION_LOG.txt
 
 We'd love to get your feedback! Please submit any bugs or improvements that need to be made by going to Help -> Send Feedback.
 

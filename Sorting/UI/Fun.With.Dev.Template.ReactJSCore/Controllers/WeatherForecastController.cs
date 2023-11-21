@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Fun.With.Dev.Template.ReactJSCore.Controllers
+namespace Fun.With.Dev.Sorting.ReactJSCore.Controllers
 {
     [ApiController]
     [Route("[controller]")]

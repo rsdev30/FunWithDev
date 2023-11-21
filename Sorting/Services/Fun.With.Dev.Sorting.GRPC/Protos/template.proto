@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "Fun.With.Dev.Sorting.GRPC";
+
+package template;
+
+// The template service definition.
+service TemplateBase {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply);
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+  string message = 1;
+}
