@@ -4,11 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Web.Resource;
 
 namespace Fun.With.Dev.Sorting.API.Controllers
-{
-    //[Authorize]
+{    
     [ApiController]
-    [Route("api/[controller]")]
-    //[RequiredScope(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
+    [Route("api/[controller]")]    
     public class BubbleSortController : ControllerBase
     {
         private readonly ILogger<BubbleSortController> _logger;
@@ -18,8 +16,7 @@ namespace Fun.With.Dev.Sorting.API.Controllers
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _sort = sort ?? throw new ArgumentNullException(nameof(sort)); ;
         }
-
-        // POST api/<MergeSortController>
+        
         [HttpPost]
         public int[] Post([FromBody] int[] value)
         {

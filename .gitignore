@@ -509,3 +509,8 @@
 /Sorting/UI/Fun.With.Dev.Sorting.NodeJS.Express/node_modules/@babel
 /Sorting/UI/Fun.With.Dev.Sorting.NodeJS.Express/node_modules/@types/node
 /Sorting/UI/Fun.With.Dev.Sorting.NodeJS.Express/node_modules
+/Sorting/Tests/Fun.With.Dev.Sorting.Tests.MSTests/bin/Debug/net8.0
+/Sorting/Tests/Fun.With.Dev.Sorting.Tests.NUnitTests/bin/Debug/net8.0
+/Sorting/Tests/Fun.With.Dev.Sorting.Tests.XUnitTests/bin/Debug/net8.0
+/Sorting/UI/Fun.With.Dev.Sorting.BlazorApp/Server/bin/Debug/net8.0
+/Sorting/UI/Fun.With.Dev.Sorting.BlazorApp/Shared/bin/Debug/net8.0
