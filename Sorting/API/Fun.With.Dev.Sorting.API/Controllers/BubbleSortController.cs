@@ -1,27 +1,42 @@
+using Fun.With.Dev.Sorting.Contracts.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Web.Resource;
 
 namespace Fun.With.Dev.Sorting.API.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
-    [Route("[controller]")]
-    [RequiredScope(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
+    [Route("api/[controller]")]
+    //[RequiredScope(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
     public class BubbleSortController : ControllerBase
-    {        
+    {
         private readonly ILogger<BubbleSortController> _logger;
-
-        public BubbleSortController(ILogger<BubbleSortController> logger)
+        private readonly IBubbleSort _sort;
+        public BubbleSortController(ILogger<BubbleSortController> logger, IBubbleSort sort)
         {
-            _logger = logger;
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _sort = sort ?? throw new ArgumentNullException(nameof(sort)); ;
         }
 
         // POST api/<MergeSortController>
         [HttpPost]
-        public string Post([FromBody] string value)
+        public int[] Post([FromBody] int[] value)
         {
-            return value?.OrderBy(x => x)?.ToString() ?? string.Empty;
+            try
+            {
+                if (value is null)
+                {
+                    throw new ArgumentNullException(nameof(value));
+                }
+
+                return _sort.Sort(value);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while sorting");
+                throw;
+            }
         }
     }
 }
