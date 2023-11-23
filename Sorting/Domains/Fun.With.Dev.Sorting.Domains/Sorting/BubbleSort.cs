@@ -7,11 +7,33 @@ using System.Threading.Tasks;
 
 namespace Fun.With.Dev.Sorting.Domains.Sorting
 {
-    public class BubbleSort : ISort
+    public class BubbleSort : IBubbleSort
     {
-        public string Sort(string input)
+        public int[] Sort(int[] input)
         {
-            throw new NotImplementedException();
+            var wasSwapped = false;
+            var n = input.Length;
+
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    wasSwapped = false;
+                    if (input[j] > input[j + 1])
+                    {
+                        var temp = input[j];
+                        input[j] = input[j + 1];
+                        input[j + 1] = temp;
+                        wasSwapped = true;
+                    }
+                }
+
+                if (!wasSwapped)
+                    break;
+
+            }
+
+            return input;
         }
     }
 }

@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fun.With.Dev.Sorting.Contracts.Interfaces
 {
-    public interface ISort
+    public interface IBubbleSort : ISort
     {
-        public int[] Sort(int[] input);
     }
 }

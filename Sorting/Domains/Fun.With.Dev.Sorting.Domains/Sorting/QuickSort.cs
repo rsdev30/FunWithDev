@@ -9,7 +9,7 @@ namespace Fun.With.Dev.Sorting.Domains.Sorting
 {
     public class QuickSort : ISort
     {
-        public string Sort(string input)
+        public int[] Sort(int[] input)
         {
             throw new NotImplementedException();
         }
