@@ -7,33 +7,37 @@ using System.Threading.Tasks;
 
 namespace Fun.With.Dev.Sorting.Domains.Sorting
 {
-    public class BubbleSort : IBubbleSort
-    {
-        public int[] Sort(int[] input)
+    public class BubbleSort : IBubbleSort<IList<int>, IList<int>>
+    {         
+        public async Task<IList<int>> Sort(IList<int> input)
         {
-            var wasSwapped = false;
-            var n = input.Length;
-
-            for (int i = 0; i < n - 1; i++)
+            return await Task.Run(() =>
             {
-                for (int j = 0; j < n - i - 1; j++)
+                var wasSwapped = false;                
+                var n = input.Count;
+
+                for (int i = 0; i < n - 1; i++)
                 {
-                    wasSwapped = false;
-                    if (input[j] > input[j + 1])
+                    for (var j = 0; j < n - i - 1; j++)
                     {
-                        var temp = input[j];
-                        input[j] = input[j + 1];
-                        input[j + 1] = temp;
-                        wasSwapped = true;
+                        wasSwapped = false;
+
+                        if (input[j] > input[j + 1])
+                        {
+                            var temp = input[j];
+                            input[j] = input[j + 1];
+                            input[j + 1] = temp;
+                            wasSwapped = true;
+                        }
                     }
+
+                    if (!wasSwapped)
+                        break;
+
                 }
 
-                if (!wasSwapped)
-                    break;
-
-            }
-
-            return input;
+                return input;
+            });
         }
     }
 }

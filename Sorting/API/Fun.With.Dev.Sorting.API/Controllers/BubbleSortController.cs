@@ -10,15 +10,15 @@ namespace Fun.With.Dev.Sorting.API.Controllers
     public class BubbleSortController : ControllerBase
     {
         private readonly ILogger<BubbleSortController> _logger;
-        private readonly IBubbleSort _sort;
-        public BubbleSortController(ILogger<BubbleSortController> logger, IBubbleSort sort)
+        private readonly IBubbleSort<IList<int>, IList<int>> _sort;
+        public BubbleSortController(ILogger<BubbleSortController> logger, IBubbleSort<IList<int>, IList<int>> sort)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _sort = sort ?? throw new ArgumentNullException(nameof(sort)); ;
         }
         
         [HttpPost]
-        public int[] Post([FromBody] int[] value)
+        public async Task<IList<int>> Post([FromBody] int[] value)
         {
             try
             {
@@ -27,7 +27,7 @@ namespace Fun.With.Dev.Sorting.API.Controllers
                     throw new ArgumentNullException(nameof(value));
                 }
 
-                return _sort.Sort(value);
+                return await _sort.Sort(value);
             }
             catch (Exception ex)
             {
