@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Fun.With.Dev.Sorting.Contracts.Interfaces
 {
-    public interface ISort
+    public interface ISort<TResult, TInput>
     {
-        public int[] Sort(int[] input);
+        public Task<TResult> Sort(TInput input);
     }
 }

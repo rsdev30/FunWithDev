@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
 
-builder.Services.AddScoped<IBubbleSort, BubbleSort>();
+builder.Services.AddScoped<IBubbleSort<IList<int>, IList<int>>, BubbleSort>();
 builder.Services.AddLogging();
 
 builder.Services.AddControllers();

@@ -14,7 +14,7 @@ namespace Fun.With.Dev.Sorting.Tests.MSTests.Controllers
         private MockRepository mockRepository;
 
         private Mock<ILogger<BubbleSortController>> mockLogger;
-        private IBubbleSort mockBubbleSort;
+        private IBubbleSort<IList<int>, IList<int>> mockBubbleSort;
 
         [TestInitialize]
         public void TestInitialize()
@@ -40,8 +40,7 @@ namespace Fun.With.Dev.Sorting.Tests.MSTests.Controllers
             int[] value = [5,4,3,2,1];
             int[] expected = [1, 2, 3, 4, 5];
             // Act
-            int[] result = bubbleSortController.Post(
-                value);
+            var result = bubbleSortController.Post(value).GetAwaiter().GetResult();
 
             // Assert
             Assert.IsTrue( Enumerable.SequenceEqual(expected, result));
