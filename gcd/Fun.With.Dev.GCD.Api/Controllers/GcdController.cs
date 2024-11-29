@@ -19,7 +19,8 @@ namespace WebApplication1.Controllers
         public GcdResults Get(uint M, uint N)
         {
             var results = new GcdResults(); 
-
+            
+            //TODO: implementation goes here.
             while (N > 0) 
             {
 
