@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Fun.With.Dev.GCD.Api\Fun.With.Dev.GCD.Api.csproj" />
+    <ProjectReference Include="..\..\Api\Fun.With.Dev.GCD.Api\Fun.With.Dev.GCD.Api.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,8 +1,9 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Fun.With.Dev.GCD.Api.Controllers;
+using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
 using System;
-using WebApplication1.Controllers;
+using System.Runtime.InteropServices.Marshalling;
 
 namespace Fun.With.Dev.GCD.Api.Tests.Controllers
 {
@@ -59,6 +60,7 @@ namespace Fun.With.Dev.GCD.Api.Tests.Controllers
             var gcdController = this.CreateGcdController();
             uint M = 45;
             uint N = 5;
+            uint expectedRemainder = 5;
 
             // Act
             var result = await gcdController.Get(
@@ -68,8 +70,8 @@ namespace Fun.With.Dev.GCD.Api.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
             Assert.That(result?.Value?.M, Is.EqualTo(M));
-            Assert.That(result?.Value?.N, Is.EqualTo(5));
-            Assert.That(result?.Value?.Gcd, Is.EqualTo(5));
+            Assert.That(result?.Value?.N, Is.EqualTo(N));
+            Assert.That(result?.Value?.Gcd, Is.EqualTo(expectedRemainder));
             mockRepository?.VerifyAll();
         }
 

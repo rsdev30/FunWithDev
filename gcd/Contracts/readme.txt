@@ -1,0 +1,1 @@
+Interfaces go in this folder to keep them separate from the implementation.
