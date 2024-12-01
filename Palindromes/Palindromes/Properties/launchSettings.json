@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Fun.With.Dev.Palindromes.Console": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
