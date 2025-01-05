@@ -540,3 +540,10 @@
 /Sorting/Tests/Fun.With.Dev.Sorting.Tests.MSTests/bin/Release/net8.0
 /gcd/Api/Fun.With.Dev.GCD.Api/bin/Debug/net8.0
 /gcd/Api/Fun.With.Dev.GCD.Api/obj
+/Anagrams/UI/Fun.With.Dev.Anagrams.BlazorApp/Server/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/Anagrams/UI/Fun.With.Dev.Anagrams.BlazorApp/Shared/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/gcd/Tests/Fun.With.Dev.GCD.Api.Tests/bin/Release/net8.0
+/Search/UI/Fun.With.Dev.Template.BlazorApp/Server/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/Search/UI/Fun.With.Dev.Template.BlazorApp/Shared/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/Swap/UI/Fun.With.Dev.Template.BlazorApp/Server/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/Swap/UI/Fun.With.Dev.Template.BlazorApp/Shared/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
