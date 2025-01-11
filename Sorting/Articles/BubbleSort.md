@@ -1,7 +1,3 @@
-Sure thing! Here's a blog article on Bubble Sort pseudocode:
-
----
-
 ### Understanding Bubble Sort: A Beginner's Guide
 
 Bubble Sort is one of the simplest sorting algorithms. It's a great starting point for anyone new to programming and algorithm design. In this article, we'll explore the basics of Bubble Sort and provide pseudocode to help you understand how it works.
