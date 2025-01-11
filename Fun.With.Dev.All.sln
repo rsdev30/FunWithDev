@@ -69,6 +69,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{BED21A88-EC9C-4E4F-86D3-9FE303B795C0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Articles", "Articles", "{0C0E4476-FA62-42FE-9E88-5E1FE76716F4}"
+	ProjectSection(SolutionItems) = preProject
+		Sorting\Articles\BubbleSort.md = Sorting\Articles\BubbleSort.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -140,6 +145,7 @@ Global
 		{9A6B6824-F3F1-4CE7-AA8F-9F89C17D09A6} = {CDE3B230-A512-4392-9BB5-ACF912544474}
 		{9A8F30B3-6262-41CC-A782-91AAFD99EE59} = {C7F16292-FBB2-407C-900F-76C06F31B56F}
 		{BED21A88-EC9C-4E4F-86D3-9FE303B795C0} = {C7F16292-FBB2-407C-900F-76C06F31B56F}
+		{0C0E4476-FA62-42FE-9E88-5E1FE76716F4} = {09561A50-937A-4B68-A15B-8C6FAA7842AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {11668F02-3A95-4EFB-AD72-E8DDC0BBFC05}
