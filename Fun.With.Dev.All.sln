@@ -72,6 +72,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Articles", "Articles", "{0C0E4476-FA62-42FE-9E88-5E1FE76716F4}"
 	ProjectSection(SolutionItems) = preProject
 		Sorting\Articles\BubbleSort.md = Sorting\Articles\BubbleSort.md
+		Sorting\Articles\SelectionSort.md = Sorting\Articles\SelectionSort.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Articles", "Articles", "{734ECC78-E25E-4958-90B8-6964F464DF5B}"
