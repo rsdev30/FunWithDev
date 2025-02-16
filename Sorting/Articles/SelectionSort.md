@@ -15,6 +15,40 @@ Here's a step-by-step breakdown of the Selection Sort algorithm:
 3. **Swap**: Swap the smallest element with the first element.
 4. **Repeat**: Move to the next element and repeat the process until the entire list is sorted.
 
+### Pseduocode
+```plaintext
+function selectionSort(array)
+    n = length of array
+    for i = 0 to n-1
+        minIndex = i
+        for j = i+1 to n
+            if array[j] < array[minIndex]
+                minIndex = j
+        if minIndex != i
+            swap(array[i], array[minIndex])
+    return array
+``` 
+### Python
+```plaintext
+  def selection_sort(arr):
+    # Traverse through all array elements
+    for i in range(len(arr)):
+        # Find the minimum element in the remaining unsorted array
+        min_idx = i
+        for j in range(i + 1, len(arr)):
+            if arr[j] < arr[min_idx]:
+                min_idx = j
+
+        # Swap the found minimum element with the first element
+        arr[i], arr[min_idx] = arr[min_idx], arr[i]
+```
+
+# Test the selection sort function
+arr = [64, 25, 12, 22, 11]
+selection_sort(arr)
+print("Sorted array:", arr)
+
+
 ### Example
 
 Let's consider an example to illustrate how Selection Sort works:
