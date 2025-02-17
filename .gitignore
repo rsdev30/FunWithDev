@@ -547,3 +547,6 @@
 /Search/UI/Fun.With.Dev.Template.BlazorApp/Shared/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
 /Swap/UI/Fun.With.Dev.Template.BlazorApp/Server/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
 /Swap/UI/Fun.With.Dev.Template.BlazorApp/Shared/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/Palindromes/.vs/Fun.With.Dev.Palindromes/v17
+/Palindromes/Fun.With.Dev.Palindromes.Tests/bin
+/Palindromes/Fun.With.Dev.Palindromes.UI.Nodejs/node_modules
