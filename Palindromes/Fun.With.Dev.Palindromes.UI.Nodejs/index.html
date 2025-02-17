@@ -12,85 +12,78 @@
         .carousel-inner div {
             width: 50%;
             height: 100%;
-        }
+        }        
     </style>
     <meta charset="utf-8" />
     <title>Fun With Palindromes</title>
 </head>
 <body class="container">
-    <div class="container-fluid">
-        <h2>Example list of known palindromes</h2>
+    <div class="container">
         <div class="container-fluid">
-            <div class="row">
-                <div class="text-primary">civic</div>
-            </div>
-            <div class="row">
-                <div class="text-primary">pop</div>
-            </div>
-            <div class="row">
-                <div class="text-primary">tot</div>
+            <h3>Enter to find out if a word is a palindrome</h3>
+            <div class="container">
+                <div class="row">
+                    <input placeholder="Enter a word" name="palin" type="text" class="text-primary" id="palinput" />
+                    <br />
+                </div>
+                <div></div>
             </div>
         </div>
-    </div>
 
-    <!--<div class="container mt-3">
-        <h2>Activate Carousel with JavaScript</h2>
-        <div id="myCarousel" class="carousel slide">-->
+        <div class="container-fluid">
+            <div class="container-fluid">
+                <div class="row">
+                    <p id="palindrome"></p>
+                </div>
+            </div>
+        </div>
 
-            <!-- Indicators -->
-            <!--<ul class="carousel-indicators">
-                <li class="item1 active"></li>
-                <li class="item2"></li>
-                <li class="item3"></li>
-            </ul>-->
-
-            <!-- The slideshow -->
-            <!--<div class="carousel-inner">
-                <div class="carousel-item active">
+        <div class="container">
+            <h3>Example list of known palindromes</h3>
+            <div class="container-fluid">
+                <div class="row">
                     <div class="text-primary">civic</div>
                 </div>
-                <div class="carousel-item">
+                <div class="row">
                     <div class="text-primary">pop</div>
                 </div>
-                <div class="carousel-item">
+                <div class="row">
                     <div class="text-primary">tot</div>
                 </div>
-            </div>-->
-
-            <!-- Left and right controls -->
-            <!--<a class="carousel-control-prev" href="#myCarousel">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel">
-                <span class="carousel-control-next-icon"></span>
-            </a>
+            </div>
         </div>
+
     </div>
-
     <script>
-        $(document).ready(function () {
-            // Activate Carousel
-            $("#myCarousel").carousel();
+        const input = document.querySelector("input");
+        const log = document.getElementById("palindrome");
+        input.addEventListener("input", isPalindrome);
+        
+        function isPalindrome(word) {    
+            if (input.value.length === 0) {
+                log.textContent = '';                
+            }
+            let origword = word.target.value;
+            let reverseWord = reverse(word.target.value); 
 
-            // Enable Carousel Indicators
-            $(".item1").click(function () {
-                $("#myCarousel").carousel(0);
-            });
-            $(".item2").click(function () {
-                $("#myCarousel").carousel(1);
-            });
-            $(".item3").click(function () {
-                $("#myCarousel").carousel(2);
-            });
+            if (origword.localeCompare(reverseWord) === 0) {         
+                const origword2 = origword + " " + " is a palindrome";
+                log.textContent = origword2;
+            } else {
+                const origword2 = origword + " " + " is not a palindrome";
+                log.textContent = origword2;
+                
+            }  
+            
+        }
 
-            // Enable Carousel Controls
-            $(".carousel-control-prev").click(function () {
-                $("#myCarousel").carousel("prev");
-            });
-            $(".carousel-control-next").click(function () {
-                $("#myCarousel").carousel("next");
-            });
-        });
-    </script>-->
+        function reverse(str) {
+            if (str === "") {
+                return "";
+            } else {
+                return reverse(str.substr(1)) + str.charAt(0);
+            }
+        }
+    </script>     
 </body>
 </html>
