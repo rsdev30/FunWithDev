@@ -59,22 +59,23 @@
         const log = document.getElementById("palindrome");
         input.addEventListener("input", isPalindrome);
         
-        function isPalindrome(word) {    
+        function isPalindrome(word) {             
             if (input.value.length === 0) {
-                log.textContent = '';                
+                log.innerHTML = '';
+                log.textContent.value = '';
+                document.getElementById("palindrome").textContent = "";                
+                return false;
             }
             let origword = word.target.value;
             let reverseWord = reverse(word.target.value); 
-
-            if (origword.localeCompare(reverseWord) === 0) {         
-                const origword2 = origword + " " + " is a palindrome";
-                log.textContent = origword2;
-            } else {
-                const origword2 = origword + " " + " is not a palindrome";
-                log.textContent = origword2;
-                
-            }  
             
+            if (origword.localeCompare(reverseWord) === 0) {         
+                let origword2 = origword + " " + " is a palindrome";                
+                log.innerHTML = origword2;
+            } else {
+                let origword2 = origword + " " + " is not a palindrome";                
+                log.innerHTML = origword2;                
+            }              
         }
 
         function reverse(str) {
