@@ -14,6 +14,7 @@ The algorithm works by repeatedly swapping adjacent elements if they are in the 
 
 Here's the pseudocode for Bubble Sort:
 
+### Pseudocode
 ```plaintext
 procedure bubbleSort(A: list of sortable items)
     n = length(A)
@@ -29,6 +30,22 @@ procedure bubbleSort(A: list of sortable items)
     until not swapped
 end procedure
 ```
+### Python
+```plaintext
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        # Last i elements are already sorted
+        for j in range(0, n-i-1):           
+              if arr[j] > arr[j+1]:
+                   arr[j], arr[j+1] = arr[j+1], arr[j]
+```
+
+### Test the python method
+arr = [10,9,8,7,6,5]
+bubble_sort(arr)
+print(arr)
+[5, 6, 7, 8, 9, 10]
 
 #### Step-by-Step Explanation
 
