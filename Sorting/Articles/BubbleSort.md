@@ -14,7 +14,7 @@ The algorithm works by repeatedly swapping adjacent elements if they are in the 
 
 Here's the pseudocode for Bubble Sort:
 
-### Pseduocode
+### Pseudocode
 ```plaintext
 procedure bubbleSort(A: list of sortable items)
     n = length(A)

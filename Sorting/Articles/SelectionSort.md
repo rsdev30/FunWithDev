@@ -15,7 +15,7 @@ Here's a step-by-step breakdown of the Selection Sort algorithm:
 3. **Swap**: Swap the smallest element with the first element.
 4. **Repeat**: Move to the next element and repeat the process until the entire list is sorted.
 
-### Pseduocode
+### Pseudocode
 ```plaintext
 function selectionSort(array)
     n = length of array
