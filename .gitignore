@@ -560,3 +560,6 @@
 /.vs/Fun.With.Dev.All/CopilotIndices/18.9.1319.62376
 /.vs/Fun.With.Dev.All/config
 /.vs/Fun.With.Dev.All/v18
+/Palindromes/Fun.With.Dev.Palindromes.API/bin/Debug/net10.0
+/Palindromes/Fun.With.Dev.Palindromes.Contracts/bin/Debug/net10.0
+/Palindromes/Fun.With.Dev.Palindromes.Manager/bin/Debug/net10.0
