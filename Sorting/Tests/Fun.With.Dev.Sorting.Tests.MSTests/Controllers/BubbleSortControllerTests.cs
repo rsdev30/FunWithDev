@@ -11,10 +11,10 @@ namespace Fun.With.Dev.Sorting.Tests.MSTests.Controllers
     [TestClass]
     public class BubbleSortControllerTests
     {
-        private MockRepository mockRepository;
+        private MockRepository? mockRepository;
 
-        private Mock<ILogger<BubbleSortController>> mockLogger;
-        private IBubbleSort<IList<int>, IList<int>> mockBubbleSort;
+        private Mock<ILogger<BubbleSortController>>? mockLogger;
+        private IBubbleSort<IList<int>, IList<int>>? mockBubbleSort;
 
         [TestInitialize]
         public void TestInitialize()
@@ -28,8 +28,8 @@ namespace Fun.With.Dev.Sorting.Tests.MSTests.Controllers
         private BubbleSortController CreateBubbleSortController()
         {
             return new BubbleSortController(
-                this.mockLogger.Object,
-                this.mockBubbleSort);
+                mockLogger.Object,
+                mockBubbleSort);
         }
 
         [TestMethod]
@@ -44,7 +44,7 @@ namespace Fun.With.Dev.Sorting.Tests.MSTests.Controllers
 
             // Assert
             Assert.IsTrue( Enumerable.SequenceEqual(expected, result));
-            this.mockRepository.VerifyAll();
+            mockRepository.VerifyAll();
         }
     }
 }

@@ -42,7 +42,7 @@ namespace Fun.With.Dev.GCD.Api.Tests.Controllers
                 N);
             
             // Assert
-            Assert.IsNotNull(result);            
+            Assert.That(result != null);
             Assert.That(result?.Value?.M, Is.EqualTo(0));
             Assert.That(result?.Value?.N, Is.EqualTo(0));
             Assert.That(result?.Value?.Gcd, Is.EqualTo(0));
@@ -68,7 +68,7 @@ namespace Fun.With.Dev.GCD.Api.Tests.Controllers
                 N);
 
             // Assert
-            Assert.IsNotNull(result);
+            Assert.That(result != null);
             Assert.That(result?.Value?.M, Is.EqualTo(M));
             Assert.That(result?.Value?.N, Is.EqualTo(N));
             Assert.That(result?.Value?.Gcd, Is.EqualTo(expectedRemainder));
@@ -90,7 +90,7 @@ namespace Fun.With.Dev.GCD.Api.Tests.Controllers
 
             // Assert
             //It should swap the values since M was less than N
-            Assert.IsNotNull(result);
+            Assert.That(result != null);
             Assert.That(result?.Value?.M, Is.EqualTo(N));
             Assert.That(result?.Value?.N, Is.EqualTo(M));
             Assert.That(result?.Value?.Gcd, Is.EqualTo(5));
